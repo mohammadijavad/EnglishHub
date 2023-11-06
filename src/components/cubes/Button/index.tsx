@@ -5,7 +5,7 @@ interface ButtonProps extends ComponentProps<"button"> {
   endIcon?: any;
   endIconClass?: string;
   loading?: boolean;
-  onClick: () => void;
+  onClick?: () => void;
 }
 function Button({
   children,
@@ -19,9 +19,7 @@ function Button({
   return (
     <button
       className={`
-    button group flex items-center justify-center border border-customBlue text-customBlue bg-customBlue-50 p-[9px] rounded-[10px] hover:bg-customBlue hover:text-white transition-all',
-    ${disabled || loading ? "disabled:opacity-50" : ""}
-    className,
+    button group flex items-center justify-center border border-customBlue p-[9px] rounded-[10px]  transition-all ${disabled || loading ? "disabled:opacity-50" : ""} ${className}
   `}
       disabled={disabled || loading}
       {...rest}

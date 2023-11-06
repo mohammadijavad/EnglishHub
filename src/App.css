@@ -1,3 +1,36 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Vazirmatn-FD-NL-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: VazirBold;
+  font-weight: bold;
+  src: url("./assets/fonts/Vazirmatn-FD-NL-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: VazirMedium;
+  font-style: normal;
+  font-weight: lighter;
+  src: url("./assets/fonts/Vazirmatn-FD-NL-Medium.woff2") format("woff2");
+}
+
+html {
+  direction: rtl;
+}
+.bold{
+    font-family: VazirBold;
+}
+.light{
+
+}
+.medium{
+    font-family: VazirMedium;
+}
+body {
+  font-family: Vazir;
+}

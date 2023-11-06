@@ -1,8 +1,9 @@
 import "./App.css";
+import Landing from "./components/Layout/Landing";
 function App() {
   return (
     <div className="App">
-      <p className="text-blue-500"></p>
+    <Landing/>
     </div>
   );
 }
