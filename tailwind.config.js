@@ -8,7 +8,11 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        BrightPurple: '#e60af3',
+      },
+    },
   },
   plugins: [],
 }

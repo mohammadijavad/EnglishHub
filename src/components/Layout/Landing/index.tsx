@@ -2,11 +2,12 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
-function Landing() {
+
+function Landing({children}:{children:React.ReactNode}) {
   return (
     <div>
       <Header />
-      <Outlet />
+      {children}
       <Footer />
     </div>
   );
