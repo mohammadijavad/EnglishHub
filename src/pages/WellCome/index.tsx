@@ -1,9 +1,9 @@
-import React from "react";
-import Landing from "../../components/Layout/Landing";
-import Button from "../../components/cubes/Button";
-import CoverSection from "../../assets/images/welcome/first cover section .jpg";
-import justKeep from "../../assets/images/welcome/justKeep.png"
-import chat from "../../assets/images/welcome/Chat.png"
+import React from 'react';
+import Landing from '../../components/Layout/Landing';
+import Button from '../../components/cubes/Button';
+import CoverSection from '../../assets/images/welcome/first cover section .jpg';
+import justKeep from '../../assets/images/welcome/justKeep.png';
+import chat from '../../assets/images/welcome/Chat.png';
 function Welcome() {
   return (
     <Landing>
@@ -14,12 +14,10 @@ function Welcome() {
             {/* <br  /> */}
             پلتفرم آنلاین و کاملا
             <span className="text-BrightPurple bold pb-2">
-              {"   "} رایگان {"   "}
+              {'   '} رایگان {'   '}
             </span>
-            <span>
-            برای یادگیری زبان انگلیسی
-            </span>
-            </h1>
+            <span>برای یادگیری زبان انگلیسی</span>
+          </h1>
           <Button className="mt-6 bg-BrightPurple rounded text-white shadow-none">
             شروع یادگیری
           </Button>
@@ -32,10 +30,18 @@ function Welcome() {
           />
         </div>
         <div className=" hidden md:block absolute  md:top-[55%] ">
-          <img src={justKeep} alt="just keep going" className="w-3/12 opacity-50 transform -rotate-45" />
+          <img
+            src={justKeep}
+            alt="just keep going"
+            className="w-3/12 opacity-50 transform -rotate-45"
+          />
         </div>
-        <div className="hidden md:block absolute  md:top-[10%] xl:top-[40%] md:left-[-50%] xl:left-[-30%] ">
-          <img src={chat} alt="just keep going" className="w-3/12 opacity-50 transform -rotate-45" />
+        <div className="hidden md:block absolute  md:top-[10%] lg:top-[5%]  md:left-[-50%] xl:left-[-40%] ">
+          <img
+            src={chat}
+            alt="just keep going"
+            className="w-3/12 opacity-50 transform -rotate-45"
+          />
         </div>
       </div>
     </Landing>
