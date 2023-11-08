@@ -1,26 +1,55 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCreative } from 'swiper/modules';
 import { EffectCards } from 'swiper/modules';
 import { comments } from '../constants/Comments';
 export default function SimpleSlider() {
   return (
-    <>
+    <div className="container mx-auto">
       <Swiper
+        // grabCursor={true}
+        // effect={'creative'}
+        // creativeEffect={{
+        //   prev: {
+        //     shadow: true,
+        //     translate: [0, 0, -400],
+        //   },
+        //   next: {
+        //     translate: ['-100%', 0, 0],
+        //   },
+        // }}
+        // modules={[EffectCreative]}
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper"
+        className="mySwiper !w-4/5 !mx-auto !m-0 !mt-10  !p-[8px] !rounded-md md:!h-[400px]"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide className="rounded-md">Slide 1</SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 2
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 3
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 4
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 5
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 6
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 7
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 8
+        </SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 9
+        </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
