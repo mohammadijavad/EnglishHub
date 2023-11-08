@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import podcast from "../../assets/images/welcome/why EnglishHub/Podcast audience-pana.png";
-import englishTest from "../../assets/images/welcome/why EnglishHub/Online test1.png";
-import onlineVedio from "../../assets/images/welcome/why EnglishHub/Video tutorial-amico.png";
-import Competition from "../../assets/images/welcome/why EnglishHub/Winners-cuate.png";
-import onlineTranslate from "../../assets/images/welcome/why EnglishHub/Translator-rafiki.png";
-import linterBox from "../../assets/images/welcome/why EnglishHub/Book lover-amico.png";
-import progress from "../../assets/images/welcome/why EnglishHub/Progress 1.png";
-import ai from "../../assets/images/welcome/why EnglishHub/Voice assistant-2.png";
+import podcast from '../../assets/images/welcome/why EnglishHub/Podcast audience-pana.png';
+import englishTest from '../../assets/images/welcome/why EnglishHub/Online test1.png';
+import onlineVedio from '../../assets/images/welcome/why EnglishHub/Video tutorial-amico.png';
+import Competition from '../../assets/images/welcome/why EnglishHub/Winners-cuate.png';
+import onlineTranslate from '../../assets/images/welcome/why EnglishHub/Translator-rafiki.png';
+import linterBox from '../../assets/images/welcome/why EnglishHub/Book lover-amico.png';
+import progress from '../../assets/images/welcome/why EnglishHub/Progress 1.png';
+import ai from '../../assets/images/welcome/why EnglishHub/Voice assistant-2.png';
 function WhyEnglishHub() {
   return (
-    <div className=" h-auto xl:h-[80vh] w-full container mx-auto mt-4 md:mt-0">
+    <div className=" h-auto  w-full container mx-auto mt-4 md:mt-0 border">
       <div className="flex justify-center ">
         <p className="p-3 rounded px-7 bold text-black bg-slate-200 mb-5">
           چرا انگلیس هاب
@@ -98,7 +98,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold ">محاسبه سرعت رشد وداشبورد اختصاصی</p>
           <p className="text-sm mt-3 text-slate-600">
-                سرعت یادگیری خودتو به همراه نقاط ضعف و قدرت  نشون میدیم
+            سرعت یادگیری خودتو به همراه نقاط ضعف و قدرت نشون میدیم
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -111,8 +111,8 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold ">هوش مصنوعی </p>
           <p className="text-sm mt-3 text-slate-600">
-                یک دستیار هوشمند داری میتونی  سوالات خودتو بپرسی
-              </p>
+            یک دستیار هوشمند داری میتونی سوالات خودتو بپرسی
+          </p>
           <div className="w-full flex justify-center mt-2">
             <img src={ai} alt="listen podcast" className="w-1/2 xl:w-2/4" />
           </div>
