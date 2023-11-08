@@ -1,10 +1,11 @@
-import React from 'react';
-import Landing from '../../components/Layout/Landing';
-import Button from '../../components/cubes/Button';
-import CoverSection from '../../assets/images/welcome/first cover section .jpg';
-import justKeep from '../../assets/images/welcome/justKeep.png';
-import chat from '../../assets/images/welcome/Chat.png';
-import sample from '../../assets/images/welcome/first cover section .jpg';
+import React from "react";
+import Landing from "../../components/Layout/Landing";
+import Button from "../../components/cubes/Button";
+import CoverSection from "../../assets/images/welcome/first cover section .jpg";
+import justKeep from "../../assets/images/welcome/justKeep.png";
+import chat from "../../assets/images/welcome/Chat.png";
+import WhyEnglishHub from "./WhyEnglishHub";
+
 function Welcome() {
   return (
     <Landing>
@@ -16,7 +17,7 @@ function Welcome() {
             {/* <br  /> */}
             پلتفرم آنلاین و کاملا
             <span className="text-BrightPurple bold pb-2">
-              {'   '} رایگان {'   '}
+              {"   "} رایگان {"   "}
             </span>
             <span>برای یادگیری زبان انگلیسی</span>
           </h1>
@@ -47,87 +48,7 @@ function Welcome() {
         </div>
       </div>
       {/* second section */}
-      <div className="h-screen w-full container mx-auto mt-4 md:mt-0">
-        <div className="flex justify-center ">
-          <p className="p-3 rounded px-6 bold text-black bg-gray-400">
-            چرا انگلیس هاب
-          </p>
-        </div>
-        <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-2 gap-4 mt-8 ">
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>پادکست های متنوع</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>تعیین سطح رایگان و استاندارد</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>تماشای ویدیو و آزمون</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>مسابقه با هم سطح ها</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>مترجم و بخش یادگیری لغات</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p> جعبه لاینتر</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>محاسبه سرعت رشد وداشبورد اختصاصی</p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-          <div className=" p-2 flex flex-col justify-center items-center">
-            <p>هوش مصنوعی </p>
-            <p className="text-sm mt-2">
-              کلی پادکست های کوتاه برای سطح های مختلف
-            </p>
-            <div className="w-full flex justify-center mt-2">
-              <img src={sample} alt="listen podcast" className="w-1/2" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <WhyEnglishHub />
     </Landing>
   );
 }
