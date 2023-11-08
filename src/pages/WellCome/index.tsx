@@ -5,11 +5,12 @@ import CoverSection from "../../assets/images/welcome/first cover section .jpg";
 import justKeep from "../../assets/images/welcome/justKeep.png";
 import chat from "../../assets/images/welcome/Chat.png";
 import WhyEnglishHub from "./WhyEnglishHub";
+import Students from "./OurStudents/Students";
 
 function Welcome() {
   return (
     <Landing>
-      {/* first section */}
+      {/* first section intro English hub*/}
       <div className="h-screen w-full  container mx-auto flex items-center justify-evenly md:justify-between relative flex-col md:flex-row">
         <div className="w-full md:w-1/2 md:h-full flex items-center justify-center flex-col">
           <h1 className="text-xl md:text-3xl text-center leading-10">
@@ -39,7 +40,7 @@ function Welcome() {
             className="w-3/12 opacity-50 transform -rotate-45"
           />
         </div>
-        <div className="hidden md:block absolute  md:top-[10%] lg:top-[5%]  md:left-[-50%] xl:left-[-40%] ">
+        <div className="hidden md:block absolute  md:top-[10%] lg:top-[5%] xl:top-[20%]  md:left-[-50%] xl:left-[-20%] ">
           <img
             src={chat}
             alt="just keep going"
@@ -47,8 +48,10 @@ function Welcome() {
           />
         </div>
       </div>
-      {/* second section */}
+      {/* second section why choice English Hub */}
       <WhyEnglishHub />
+      {/*section three students */}
+      <Students/>
     </Landing>
   );
 }

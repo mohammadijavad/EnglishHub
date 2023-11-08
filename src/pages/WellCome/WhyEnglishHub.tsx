@@ -10,9 +10,9 @@ import progress from "../../assets/images/welcome/why EnglishHub/Progress 1.png"
 import ai from "../../assets/images/welcome/why EnglishHub/Voice assistant-2.png";
 function WhyEnglishHub() {
   return (
-    <div className="h-screen w-full container mx-auto mt-4 md:mt-0">
+    <div className=" h-auto xl:h-[80vh] w-full container mx-auto mt-4 md:mt-0">
       <div className="flex justify-center ">
-        <p className="p-3 rounded px-7 bold text-black bg-slate-200">
+        <p className="p-3 rounded px-7 bold text-black bg-slate-200 mb-5">
           چرا انگلیس هاب
         </p>
       </div>
@@ -33,7 +33,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold">تعیین سطح رایگان و استاندارد</p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
+            تعیین سطح استاندارد برای شروع یادگیری
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -46,7 +46,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold">تماشای ویدیو و آزمون</p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
+            کلی ویدیو با زیرنویس به همراه سوال برای سطح های مختلف
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -59,7 +59,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold">مسابقه با هم سطح ها</p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
+            مسابقات و چالش برای ایجاد رقابت دوستانه
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -72,7 +72,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold">مترجم و بخش یادگیری لغات</p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
+            مترجم و دیکشنری لغات به همراه تلفظ و استفاده کاربردی لغات
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -85,7 +85,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold"> جعبه لاینتر</p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
+            نگران فراموشی لغات نباش ما بهت یادآوری میکنیم
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -98,7 +98,7 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold ">محاسبه سرعت رشد وداشبورد اختصاصی</p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
+                سرعت یادگیری خودتو به همراه نقاط ضعف و قدرت  نشون میدیم
           </p>
           <div className="w-full flex justify-center mt-2">
             <img
@@ -111,8 +111,8 @@ function WhyEnglishHub() {
         <div className=" p-2 flex flex-col justify-center items-center">
           <p className="bold ">هوش مصنوعی </p>
           <p className="text-sm mt-3 text-slate-600">
-            کلی پادکست های کوتاه برای سطح های مختلف
-          </p>
+                یک دستیار هوشمند داری میتونی  سوالات خودتو بپرسی
+              </p>
           <div className="w-full flex justify-center mt-2">
             <img src={ai} alt="listen podcast" className="w-1/2 xl:w-2/4" />
           </div>
