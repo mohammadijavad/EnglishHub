@@ -1,11 +1,12 @@
-import "./App.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Welcome from "./pages/WellCome";
+import './App.css';
+import Welcome from './pages/WellCome';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 function App() {
   return (
     <div className="App">
-      <Welcome/>
+      <Welcome />
     </div>
   );
 }
