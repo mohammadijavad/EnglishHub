@@ -1,5 +1,6 @@
 import "./App.css";
-import Landing from "./components/Layout/Landing";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Welcome from "./pages/WellCome";
 function App() {
   return (
