@@ -10,7 +10,7 @@ import progress from '../../assets/images/welcome/why EnglishHub/Progress 1.png'
 import ai from '../../assets/images/welcome/why EnglishHub/Voice assistant-2.png';
 function WhyEnglishHub() {
   return (
-    <div className=" h-auto  w-full container mx-auto mt-4 md:mt-0 border">
+    <div className=" h-auto  w-full container mx-auto mt-4 md:mt-0">
       <div className="flex justify-center ">
         <p className="p-3 rounded px-7 bold text-black bg-slate-200 mb-5">
           چرا انگلیس هاب

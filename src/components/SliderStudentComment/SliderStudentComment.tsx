@@ -5,7 +5,7 @@ import { EffectCards } from 'swiper/modules';
 import { comments } from '../constants/Comments';
 export default function SimpleSlider() {
   return (
-    <div className="container mx-auto">
+    <div>
       <Swiper
         // grabCursor={true}
         // effect={'creative'}
@@ -22,9 +22,11 @@ export default function SimpleSlider() {
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper !w-4/5 !mx-auto !m-0 !mt-10  !p-[8px] !rounded-md md:!h-[400px]"
+        className="mySwiper !w-full  !m-0 !mt-10  !p-[8px] !rounded-md md:!h-[300px]"
       >
-        <SwiperSlide className="rounded-md">Slide 1</SwiperSlide>
+        <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
+          Slide 1
+        </SwiperSlide>
         <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
           Slide 2
         </SwiperSlide>
