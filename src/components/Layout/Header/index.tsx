@@ -1,6 +1,7 @@
-import React from "react";
-import Button from "../../cubes/Button";
-import Logo from "../../../assets/images/EnglishHub.png";
+import React from 'react';
+import Button from '../../cubes/Button';
+import Logo from '../../../assets/images/EnglishHub.png';
+import { Link } from 'react-router-dom';
 function index() {
   return (
     <header className="w-full shadow-sm shadow-gray-200">
@@ -15,6 +16,7 @@ function index() {
         </div>
         <div>
           <img src={Logo} alt="English Hub" className="w-[100px]" />
+          <Link to="/harchi">about</Link>
         </div>
       </div>
     </header>

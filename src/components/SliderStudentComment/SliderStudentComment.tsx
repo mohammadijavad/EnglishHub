@@ -22,7 +22,7 @@ export default function SimpleSlider() {
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper !w-full  !m-0 !mt-10  !p-[8px] !rounded-md md:!h-[300px]"
+        className="mySwiper !w-full  !m-0 !mt-10  !p-[8px] !rounded-md md:!h-[300px] overflow-hidden"
       >
         <SwiperSlide className="rounded-md border  !bg-[#fff] border-BrightPurple !text-black !p-2">
           Slide 1

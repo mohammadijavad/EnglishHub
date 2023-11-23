@@ -3,10 +3,12 @@ import Welcome from './pages/WellCome';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { RouterProvider } from 'react-router-dom';
+import { providerRoute } from './routes/routeProvider';
 function App() {
   return (
     <div className="App">
-      <Welcome />
+      <RouterProvider router={providerRoute} />
     </div>
   );
 }
